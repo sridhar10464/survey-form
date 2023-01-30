@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Survey Form</h1>
+        <form action="">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your name..">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" placeholder="Your email..">
+            </div>
+            <div class="form-group">
+                <label>Rating the Experience</label>
+                <span class="rating">
+                    <input type="radio" id="5-star" name="rating" value="5">
+                    <label for="5-star">5 stars</label>
+                    <input type="radio" id="4-star" name="rating" value="4">
+                    <label for="4-star">4 stars</label>
+                    <input type="radio" id="3-star" name="rating" value="3">
+                    <label for="3-star">3 stars</label>
+                    <input type="radio" id="2-star" name="rating" value="2">
+                    <label for="2-star">2 stars</label>
+                    <input type="radio" id="1-star" name="rating" value="1">
+                    <label for="1-star">1 star</label>
+                </span>
+
+                <div>Overall, how would you rate you experience with us? </div>
+            </div>
+            <div class="form-group">
+                <h2>How satisfied are you with:</h2>
+                <div class="row">
+                    <div class="col-25">
+                        <h3 for="purchase">Purchase:</h3>
+                    </div>
+                    <div class="col-75">
+                        <h5>
+                            <input type="radio" name="purchase" value="Very Satisfied"> Very Satisfied
+                            <input type="radio" name="purchase" value="Satisfied"> Satisfied
+                            <input type="radio" name="purchase" value="Neutral"> Neutral
+                            <input type="radio" name="purchase" value="Unsatisfied"> Unsatisfied
+                            <input type="radio" name="purchase" value="Very Unsatisfied"> Very Unsatisfied
+                        </h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <h3 for="service">Service:</h3>
+                    </div>
+                    <div class="col-75">
+                        <h5>
+                            <input type="radio" name="purchase" value="Very Satisfied"> Very Satisfied
+                            <input type="radio" name="purchase" value="Satisfied"> Satisfied
+                            <input type="radio" name="purchase" value="Neutral"> Neutral
+                            <input type="radio" name="purchase" value="Unsatisfied"> Unsatisfied
+                            <input type="radio" name="purchase" value="Very Unsatisfied"> Very Unsatisfied
+                        </h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <h3 for="company">Company:</h3>
+                    </div>
+                    <div class="col-75">
+                        <h5>
+                            <input type="radio" name="purchase" value="Very Satisfied"> Very Satisfied
+                            <input type="radio" name="purchase" value="Satisfied"> Satisfied
+                            <input type="radio" name="purchase" value="Neutral"> Neutral
+                            <input type="radio" name="purchase" value="Unsatisfied"> Unsatisfied
+                            <input type="radio" name="purchase" value="Very Unsatisfied"> Very Unsatisfied
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <h2>How likely are you to:</h2>
+                <div class="row">
+                    <div class="col-25">
+                        <h3 for="buy">Buy from us again:</h3>
+                    </div>
+                    <div class="col-75">
+                        <h5>
+                            <input type="radio" name="buy" value="Very Likely"> Very Likely
+                            <input type="radio" name="buy" value="Likely"> Likely
+                            <input type="radio" name="buy" value="Neutral"> Neutral
+                            <input type="radio" name="buy" value="Unlikely"> Unlikely
+                            <input type="radio" name="buy" value="Very Unlikely"> Very Unlikely
+                        </h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <h3 for="recommend-product">Recommend our product to others:</h3>
+                    </div>
+                    <div class="col-75">
+                        <h5>
+                            <input type="radio" name="buy" value="Very Likely"> Very Likely
+                            <input type="radio" name="buy" value="Likely"> Likely
+                            <input type="radio" name="buy" value="Neutral"> Neutral
+                            <input type="radio" name="buy" value="Unlikely"> Unlikely
+                            <input type="radio" name="buy" value="Very Unlikely"> Very Unlikely
+                        </h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <h3 for="recommend-company">Recommend our company to others:</h3>
+                    </div>
+                    <div class="col-75">
+                        <h5>
+                            <input type="radio" name="buy" value="Very Likely"> Very Likely
+                            <input type="radio" name="buy" value="Likely"> Likely
+                            <input type="radio" name="buy" value="Neutral"> Neutral
+                            <input type="radio" name="buy" value="Unlikely"> Unlikely
+                            <input type="radio" name="buy" value="Very Unlikely"> Very Unlikely
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <h3 for="comments">Additional comments or suggestions:</h3>
+                <div class="col-100">
+                    <textarea id="comments" name="comments" placeholder="Write something.." style="height:200px"></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
